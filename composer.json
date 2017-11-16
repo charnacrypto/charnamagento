@@ -1,0 +1,28 @@
+{
+    "name": "charnacoin/custompayment",
+    "description": "Accept Charnacoin",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+                "BSD-3"
+                ],
+    "authors": [
+                {
+                "name": "Charnacoin",
+                "email": "crypto@charnacoin.com",
+                "homepage": "http://github.com/CharnaCrypto",
+                "role": "Developer"
+                }
+                ],
+    "autoload": {
+        "files": [
+                  "registration.php"
+                  ],
+        "psr-4": {
+            "CharnaCoin\\Custompayment\\": ""
+        }
+    }
+}
